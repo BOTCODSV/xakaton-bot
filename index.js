@@ -8,8 +8,8 @@ const schedule = require('node-schedule');
 const fs = require('fs');
 
 // Инициализация бота
-const bot = new Telegraf('8162564843:AAErR9dhTp4TdYZ0jxVXyDStX3DGbzbBGJA');
-const managerId = '1122108485';
+const bot = new Telegraf('');
+const managerId = ' ';
 // Инициализация базы данных
 let db = new sqlite3.Database('./votes.db', sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE, (err) => {
   if (err) {
